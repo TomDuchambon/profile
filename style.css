@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Scheherazade New', serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Scheherazade New', serif;
+  font-weight: 100;
+  font-style:italic;
+font-stretch: semi-expanded;
+}
+h3 {
+  font-weight:normal;
+}
+
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.img-round{
+  border-radius: 50%;
+  text-shadow: #f1f1f1, 1.5;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  margin-block-end:  8px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 200%;
+  padding: 10px;
+  animation:infinite;
+}
+
+/* .description {
+  position: sticky;
+} */
+
+.socials {
+color: #f1f1f1;
+letter-spacing: 30px;
+border-spacing:10px;
+}
