@@ -37,6 +37,7 @@ h3 {
   width: 200%;
   padding: 10px;
   animation:infinite;
+  transition: opacity .6s ease;
 }
 
 .socials {
