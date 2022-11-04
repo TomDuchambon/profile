@@ -39,12 +39,26 @@ h3 {
   animation:infinite;
 }
 
-/* .description {
-  position: sticky;
-} */
-
 .socials {
 color: #f1f1f1;
 letter-spacing: 30px;
 border-spacing:10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
