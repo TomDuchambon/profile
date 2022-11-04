@@ -46,19 +46,19 @@ border-spacing:10px;
 }
 
 @media (max-width: 960px) {
-  .container {
+  body {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
-  .container {
+  body {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
-  .container {
+  body {
     width: 300px;
   }
 }
